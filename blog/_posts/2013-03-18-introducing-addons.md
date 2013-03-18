@@ -30,6 +30,8 @@ The `username` and `access_key` field supports encryption, so you don't have to
 put them in your repository as plaintext. Read more about this in the
 [addons docs][addons].
 
+This is available on both Pro and Org VMs starting today. Go try it out!
+
 [sauce-labs]: https://saucelabs.com
 [sauce-browsers]: https://saucelabs.com/docs/browsers
 [open-sauce]: https://saucelabs.com/signup/plan/OSS

@@ -46,7 +46,7 @@ for more information on encryption), and add the secure string as such:
         access_key:
           secure: "The secure string output by `travis encrypt`"
 
-You can also add the username and access_key as environment variables if you
+You can also add the `username` and `access_key` as environment variables if you
 name them `SAUCE_USERNAME` and `SAUCE_ACCESS_KEY`, respectively. In that case,
 all you need to add to your .travis.yml file is this:
 

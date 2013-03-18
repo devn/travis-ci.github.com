@@ -26,7 +26,7 @@ Sauce Connect, all you need to add to your .travis.yml file is this:
         username: your_username
         access_key: your_sauce_access_key
 
-The `username` and `access_key` field supports encryption, so you don't have to
+The `username` and `access_key` fields support encryption, so you don't have to
 put them in your repository as plaintext. Read more about this in the
 [addons docs][addons].
 

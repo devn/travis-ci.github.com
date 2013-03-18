@@ -22,9 +22,10 @@ Labs' cloud-based VMs and your local servers. Connect uses ports 443 and 80 for
 communication with Sauce's cloud. If you're using Sauce Labs for your Selenium
 tests, this makes connecting to your webserver a lot easier.
 
-First, [sign up][sauce-sign-up] with Sauce Labs if you haven't already, and get
-your access key from your [account page][sauce-account]. Once you have that,
-add this to your .travis.yml file:
+First, [sign up][sauce-sign-up] with Sauce Labs if you haven't already (it's
+[free][open-sauce] for Open Source projects), and get your access key from your
+[account page][sauce-account]. Once you have that, add this to your .travis.yml
+file:
 
     addons:
       sauce_connect:
@@ -33,6 +34,7 @@ add this to your .travis.yml file:
 
 [sauce-sign-up]: https://saucelabs.com/signup/plan/free
 [sauce-account]: https://saucelabs.com/account
+[open-sauce]: https://saucelabs.com/signup/plan/OSS
 
 If you don't want your access key publicly available in your repository, you
 can encrypt it with `travis encrypt "your-access-key"` (see [Encryption Keys][encryption-keys]
